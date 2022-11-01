@@ -14,6 +14,6 @@ jobs:
       uses: joshcai/leetcode-sync@v1.4
       with:
         github-token: ${{ github.token }}
-        leetcode-csrf-token: ${{ kaIaBQrb2Aq0zT00CUe7t2jnrF4Cv8r0Q4iHMeW5wGGDVszPqg4IASVcksdGe12G }}
-        leetcode-session: ${{ eyJfYXV0aF91c2VyX2lkIjoiMjExNTM0OCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiODcwYWJiYzE5MjQ1YTFmNmQ1ZjMyYmQyZDdlNGRkODJiNWQ2N2YxZiIsImlkIjoyMTE1MzQ4LCJlbWFpbCI6InNvdXJhdi5jc2U0LmJ1QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiSGlyb19oYW1hZGEiLCJ1c2VyX3NsdWciOiJIaXJvX2hhbWFkYSIsImF2YXRhciI6Imh0dHBzOi8vYXNzZXRzLmxlZXRjb2RlLmNvbS91c2Vycy9hdmF0YXJzL2F2YXRhcl8xNjU0ODc3MTE5LnBuZyIsInJlZnJlc2hlZF9hdCI6MTY2NzMxOTYyNywiaXAiOiIxMDMuMTMzLjE4Ny4xOTciLCJpZGVudGl0eSI6Ijc0NzY4NjYzNTVlZmUzNzQ4NGNiYzI2MTE5YmQ4NWM4Iiwic2Vzc2lvbl9pZCI6MjcxNTU5MTcsIl9zZXNzaW9uX2V4cGlyeSI6MTIwOTYwMH0.95xGWS61LvTnOILGzWkvL_61voaGstHbUMtne4bwQ8o }}
+        leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+        leetcode-session: ${{ secrets.LEETCODE_SESSION }}
         destination-folder: "AC-Submissions"
